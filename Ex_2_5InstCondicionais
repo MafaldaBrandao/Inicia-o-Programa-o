@@ -1,0 +1,13 @@
+
+temp = int(input( "Qual a temperatura?"))
+
+if temp <5:
+    print("Muito Frio.")
+elif 5 <= temp <= 10:
+    print("Frio")
+elif 10 <= temp <= 20:
+    print("Ameno")
+elif 20 <= temp <= 30:
+    print("Quente")
+else:
+    print("Muito Quente")
