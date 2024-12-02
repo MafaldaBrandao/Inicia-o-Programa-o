@@ -1,0 +1,22 @@
+A primeira vez que se instala o GIT:
+
+ 1) Abrir linha de comando (win-R - CMD)
+
+ 2) Identificar utilizador no Git HUB: git config --global user.email "email"
+
+ 3) git config --global user.name "User"
+
+
+
+1) Para criar um repositório : git init
+
+2) Para adicionar um ficheiro : git add README.md
+
+3) Para adicionar uma descrição do Commit: git commit -m "primeiro Commit"
+ 
+4) Para indicar a versão do programa: git branch -M main
+
+5) Para indicar o repositório remoto: git remote add origin https://github.com/MafaldaBrandao/Inicia-o-Programa-o.git
+
+6) Para copiar os ficheiros para o repositório remoto: git push -u origin main
+
